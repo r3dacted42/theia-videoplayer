@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_Theia_VideoPlayer_FILE D:/QtProjects/Theia_VideoPlayer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Theia_VideoPlayer.exe)
-set(__QT_DEPLOY_TARGET_Theia_VideoPlayer_RUNTIME_DLLS D:/sdk/qt/6.7.0/mingw_64/bin/Qt6MultimediaWidgets.dll;D:/sdk/qt/6.7.0/mingw_64/bin/Qt6Multimedia.dll;D:/sdk/qt/6.7.0/mingw_64/bin/Qt6Network.dll;D:/sdk/qt/6.7.0/mingw_64/bin/Qt6Widgets.dll;D:/sdk/qt/6.7.0/mingw_64/bin/Qt6Gui.dll;D:/sdk/qt/6.7.0/mingw_64/bin/Qt6Core.dll)
