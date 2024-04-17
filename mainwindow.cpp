@@ -99,11 +99,9 @@ void MainWindow::onVideoProgressChanged(qint64 pos, qint64 dur)
     auto totSec = QString::number((dur / 1000) % 60).rightJustified(2, '0'), totMin = QString::number((dur / 1000) / 60).rightJustified(2, '0');
     progressLabel->setText(QString("%1:%2/%3:%4").arg(curMin, curSec, totMin, totSec));
     if (!progressSlider->isSliderDown()) {
-        if (!progressSlider->isEnabled()) {
-            progressSlider->setMaximum(dur / 10);
-            progressSlider->setEnabled(true);
-        }
+        progressSlider->setMaximum(dur / 10);
         progressSlider->setValue(pos / 10);
+        progressSlider->setEnabled(true);
     }
 }
 
